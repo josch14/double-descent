@@ -1,6 +1,5 @@
 # Analyzing the Double Descent Phenomenon for FCNNs
-Analyzing the Double Descent Phenomenon for Fully
-Connected Neural Networks (Projekt Neuroinformatik @ University of Ulm). Have a look at the full report [here](/report.pdf).
+Analyzing the Double Descent Phenomenon for Fully Connected Neural Networks (Project @ University of Ulm). Have a look at the full [report](/report.pdf).
 
 ## Abstract
 The double descent risk curve was proposed by Belkin et al. (*Reconciling Modern
@@ -50,7 +49,7 @@ conda activate double_descent
 
 conda install pytorch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 cpuonly -c pytorch
 
-conda install -c anaconda pyyaml, pandas, scikit-learn  # config files / data loading / evaluation
+conda install -c anaconda pyyaml, scikit-learn  # config files / data loading / evaluation
 conda install -c conda-forge tqdm, matplotlib  # progress bar & plots
 ```
 
